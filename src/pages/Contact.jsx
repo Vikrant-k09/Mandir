@@ -18,7 +18,7 @@ const Contact = () => {
   const handleWhatsAppSubmit = (e) => {
     e.preventDefault();
     
-    const phoneNumber = "7982008381"; // मंदिर का व्हाट्सएप नंबर
+    const phoneNumber = "9211443887"; // मंदिर का व्हाट्सएप नंबर
     const predefinedText = `🙏 जय बाबा वीर बलुकी जी 🙏\n\n👤 नाम: ${formData.name}\n💬 संदेश: ${formData.message}\n\nकृपया जब समय मिले, उत्तर दें। धन्यवाद! 🙏`;
 
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(predefinedText)}`;
